@@ -1,0 +1,75 @@
+body {
+    margin:0;
+    background-color: aliceblue;
+}
+
+.text-box {
+    margin-top: 2rem;
+    display: grid;
+    justify-content: center;
+}
+
+.text-box input {
+    font-family: "Agency FB", serif;
+    padding: 10px;
+    width:350px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:5px;
+    font-size: 35px;
+    background: snow;
+}
+
+
+.keyboard {
+    display: grid;
+    margin-top: 2rem;
+    justify-content: center;
+    grid-template-columns: repeat(4, 6rem);
+    grid-template-rows:minmax(7rem, auto) repeat(5, 6rem);
+}
+
+.keyboard button {
+    font-family: "Agency FB", serif;
+    cursor: pointer;
+    font-size: 2rem;
+    outline: none;
+    background: snow;
+    border: 1px solid #2d2d2d;
+    color: #2d2d2d;
+
+}
+
+.container {
+    margin-top: 100px;
+    margin-left: 500px;
+    background: #2d2d2d;
+    width: 420px;
+    height: 650px;
+    position: absolute;
+    box-shadow: orangered 8px 8px;
+    border-radius: 10px;
+}
+
+.keyboard .operator{
+    background-color: orangered;
+    color: white
+}
+
+.keyboard button:hover{
+    background-color: lavender;
+}
+
+.Header{
+    font-size: 20px;
+    margin-left: 500px;
+    margin-top: 15px;
+    position: absolute;
+    font-family: "Agency FB", serif;
+    text-shadow: #2d2d2d 3px 3px;
+    color: orangered;
+    letter-spacing: 3px;
+}
+
+.keyboard .clears{
+    background-color: darkgrey;
+}
